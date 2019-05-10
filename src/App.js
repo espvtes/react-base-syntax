@@ -18,8 +18,6 @@ import Person from './Person/Person.js';
 
 
 switchNameHandler = (newName) => {
-    //console.log('Was clicked');
-    //this.state.persons[0].name= 'Maximilian';
     this.setState({
       persons:[
         {name: newName, age:28},
